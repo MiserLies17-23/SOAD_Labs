@@ -1,0 +1,11 @@
+C:\Users\THUNDEROBOT\source\repos\ConsoleApp1\WindowsFormsApp_Lab12-17\bin\Debug\WindowsFormsApp_Lab12-17.exe.config
+C:\Users\THUNDEROBOT\source\repos\ConsoleApp1\WindowsFormsApp_Lab12-17\bin\Debug\WindowsFormsApp_Lab12-17.exe
+C:\Users\THUNDEROBOT\source\repos\ConsoleApp1\WindowsFormsApp_Lab12-17\bin\Debug\WindowsFormsApp_Lab12-17.pdb
+C:\Users\THUNDEROBOT\source\repos\ConsoleApp1\WindowsFormsApp_Lab12-17\obj\Debug\WindowsFormsApp_Lab12-17.csproj.AssemblyReference.cache
+C:\Users\THUNDEROBOT\source\repos\ConsoleApp1\WindowsFormsApp_Lab12-17\obj\Debug\WindowsFormsApp_Lab12_17.SortingForm.resources
+C:\Users\THUNDEROBOT\source\repos\ConsoleApp1\WindowsFormsApp_Lab12-17\obj\Debug\WindowsFormsApp_Lab12_17.Properties.Resources.resources
+C:\Users\THUNDEROBOT\source\repos\ConsoleApp1\WindowsFormsApp_Lab12-17\obj\Debug\WindowsFormsApp_Lab12-17.csproj.GenerateResource.cache
+C:\Users\THUNDEROBOT\source\repos\ConsoleApp1\WindowsFormsApp_Lab12-17\obj\Debug\WindowsFormsApp_Lab12-17.csproj.CoreCompileInputs.cache
+C:\Users\THUNDEROBOT\source\repos\ConsoleApp1\WindowsFormsApp_Lab12-17\obj\Debug\WindowsFormsApp_Lab12-17.exe
+C:\Users\THUNDEROBOT\source\repos\ConsoleApp1\WindowsFormsApp_Lab12-17\obj\Debug\WindowsFormsApp_Lab12-17.pdb
+C:\Users\THUNDEROBOT\source\repos\ConsoleApp1\WindowsFormsApp_Lab12-17\obj\Debug\WindowsFormsApp_Lab12-17.exe.config
