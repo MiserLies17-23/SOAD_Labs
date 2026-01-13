@@ -11,22 +11,14 @@
         /// <param name="args"> Массив аргументов, передаётся при запуске </param>
         static void Main(string[] args)
         {
-            try
-            {
-                Massive<int> mas = new Massive<int>([1, 2, 3, 4]); // Потенциально могут быть пользователи
-                Console.WriteLine(mas.Length);
-                mas.Print();
-                Console.WriteLine(mas.At(10));
-                mas.Print();
-                mas.Add(5);
-                mas.Print();
-                mas.Remove(3);
-                mas.Print();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.ToString());
-            }
+            Clock c1 = new Clock { Hours = 13 };
+            Clock c2 = new Clock { Hours = 7 };
+            int hour1 = c1.Hours; // явное преобразование;
+            Console.WriteLine(hour1);
+            hour1 = 34;
+            c2 = hour1; // неявное преобразование;
+            Console.WriteLine(c1 > c2);
+            Console.WriteLine(c2.Hours);
         }
     }
 }
