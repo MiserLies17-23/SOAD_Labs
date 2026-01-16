@@ -42,8 +42,7 @@ public class Massive<T>
         {
             for (int i = 0; i < Mas.Length; i++)
             {
-                
-                if (Mas[i].Equals(elem))
+                if (Mas[i]!.Equals(elem))
                 {
                     T[] CopyMas = new T[Mas.Length - 1];
                     for (int j = 0; j < i; j++)
@@ -65,11 +64,12 @@ public class Massive<T>
     /// <param name="index"> Индекс элемента </param>
     /// <returns> Элемент, соответсвующий индексу или ошибка </returns>
     /// <exception cref="IndexOutOfRangeException"> Ошибка выхода за границы массива</exception>
-    public T At(int index)
+    public void At(int index, out T elem)
     {
-        if (index < Mas.Length)
-            return Mas[index];
-        throw new IndexOutOfRangeException("Индекс вне длины массива!");
+        if (index < Mas.Length && index >= 0)
+            elem = Mas[index];
+        else
+            throw new IndexOutOfRangeException("Индекс вне длины массива!");
     }
 
     /// <summary>

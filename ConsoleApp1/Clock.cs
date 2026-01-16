@@ -48,4 +48,3 @@ public class Clock
         return c1.Hours < c2.Hours;
     }
 }
-
