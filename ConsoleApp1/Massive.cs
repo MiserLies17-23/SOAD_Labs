@@ -1,7 +1,7 @@
 ﻿/// <summary>
 /// Обобщённый класс массива
 /// </summary>
-/// <typeparam name="T"> Тип значений массива </typeparam>
+/// <typeparam name="T"> Тип значений, содержащихся в массиве </typeparam>
 public class Massive<T>
 {
     /// <summary>
@@ -100,4 +100,3 @@ public class Massive<T>
             Console.WriteLine("Массив пуст!");
     }
 }
-

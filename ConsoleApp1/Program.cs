@@ -21,16 +21,20 @@
             //Console.WriteLine(c2.Hours);
             try
             {
-                Massive<int> mas = new([1, 2, 3]);
-                Console.WriteLine(mas.Length);
-                Console.WriteLine(mas.Mas[2]);
-                mas.At(2, out int elem);
-                Console.WriteLine(elem);
+                //Massive<int> mas = new([1, 2, 3]);
+                //Console.WriteLine(mas.Length);
+                //Console.WriteLine(mas.Mas[2]);
+                //mas.At(2, out int elem);
+                //Console.WriteLine(elem);
+                Clock c1 = new Clock { Hours = 12 };
+                c1.TimeHandler += () => Console.WriteLine("Текущее время: " + c1.Hours);
+                c1.DisplayTime();
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.ToString());
             }
         }
+
     }
 }
